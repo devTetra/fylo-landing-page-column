@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="" />
+		<meta name="author" content="Treasure Ejike" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+
+		<title>Frontend Mentor | Fylo landing page with two column layout</title>
+	</head>
+	<body>
+		<header class="header">
+			<nav class="header-nav container">
+				<img src="./images/logo.svg" alt="Fylo Logo" class="header-img" />
+				<ul class="header-links">
+					<li><a href="#" class="header-link">Features</a></li>
+					<li><a href="#" class="header-link">Team</a></li>
+					<li><a href="#" class="header-link">Sign In</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="intro-section">
+				<div class="grid container">
+					<div class="intro-text-box">
+						<h1 class="heading heading--intro">
+							All your files in one secure location, accessible anywhere.
+						</h1>
+						<p class="intro-text">
+							Fylo stores your most important files in one secure location.
+							Access them wherever you need, share and collaborate with friends,
+							family, and co-workers.
+						</p>
+						<form class="form">
+							<input
+								type="email"
+								id="email"
+								class="input input--intro"
+								placeholder="Enter your email..."
+								autocomplete="email"
+								required
+							/>
+							<button type="submit" class="btn">Get Started</button>
+						</form>
+					</div>
+					<div class="img-box">
+						<img
+							src="./images/illustration-1.svg"
+							alt="File Illustration"
+							class="illustration"
+						/>
+					</div>
+				</div>
+			</section>
+
+			<section class="benefits-section">
+				<div class="container grid">
+					<div class="benefit-text-box">
+						<h2 class="heading heading--benefits">
+							Stay productive, wherever you are
+						</h2>
+						<p class="benefit-text">
+							Never let location be an issue when accessing your files. Fylo has
+							you covered for all of your file storage needs.
+						</p>
+						<p class="benefit-text">
+							Securely share files and folders with friends, family and
+							colleagues for live collaboration. No email attachments required!
+						</p>
+						<a href="#" class="fylo-link">
+							See how Fylo works
+							<ion-icon name="arrow-forward-circle"></ion-icon>
+						</a>
+
+						<article class="testimonial-box">
+							<img
+								src="./images/icon-quotes.svg"
+								alt="Quote Icon"
+								class="quote"
+							/>
+							<p class="testimonial">
+								Fylo has improved our team productivity by an order of
+								magnitude. Since making the switch our team has become a
+								well-oiled collaboration machine.
+							</p>
+							<div class="user">
+								<img
+									src="./images/avatar-testimonial.jpg"
+									alt="Kyle Burton"
+									class="user-img"
+								/>
+								<div class="user-info">
+									<p class="user-name">Kyle Burton</p>
+									<p class="user-details">Founder & CEO, Huddle</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="img-box">
+						<img
+							src="./images/illustration-2.svg"
+							alt="Message Illustration"
+							class="illustration"
+						/>
+					</div>
+				</div>
+			</section>
+			<section class="cta-section">
+				<div class="cta container grid">
+					<div class="cta-text-box">
+						<h2 class="heading heading--cta">Get early access today</h2>
+						<p class="cta-text">
+							It only takes a minute to sign up and our free starter tier is
+							extremely generous. If you have any questions, our support team
+							would be happy to help you.
+						</p>
+					</div>
+					<form class="form form--cta">
+						<input
+							type="email"
+							id="email"
+							class="input input--cta"
+							placeholder="email@example.com"
+							autocomplete="email"
+							required
+						/>
+						<button type="submit" class="btn btn--cta">
+							Get Started For Free
+						</button>
+					</form>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer-section">
+			<div class="footer container">
+				<div class="image-box">
+					<img src="./images/logo.svg" alt="Fylo Logo" class="footer-logo" />
+				</div>
+				<address class="contact">
+					<a href="#" class="contact-link">
+						<ion-icon name="call" class="contact-icon"></ion-icon> Phone:
+						+1-543-123-4567
+					</a>
+					<a href="#" class="contact-link"
+						><ion-icon name="mail" class="contact-icon"></ion-icon>
+						example@fylo.com</a
+					>
+				</address>
+
+				<nav class="footer-nav">
+					<ul class="footer-links">
+						<li><a href="#" class="footer-link">About Us</a></li>
+						<li><a href="#" class="footer-link">Jobs</a></li>
+						<li><a href="#" class="footer-link">Press</a></li>
+						<li><a href="#" class="footer-link">Blog</a></li>
+					</ul>
+				</nav>
+				<nav class="footer-nav">
+					<ul class="footer-links">
+						<li><a href="#" class="footer-link">Contact Us</a></li>
+						<li><a href="#" class="footer-link">Terms</a></li>
+						<li><a href="#" class="footer-link">Privacy</a></li>
+					</ul>
+				</nav>
+
+				<ul class="social">
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="logo-facebook" class="social-icon"></ion-icon>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="logo-twitter" class="social-icon"></ion-icon>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="footer-link">
+							<ion-icon name="logo-instagram" class="social-icon"></ion-icon>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</footer>
+
+		<script
+			type="module"
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+		></script>
+		<script
+			nomodule
+			src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+		></script>
+	</body>
+</html>
